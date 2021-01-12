@@ -16,7 +16,7 @@ public class MonitorComponent {
 	
 	
 	@PostConstruct
-	public void initializer() {
+	public void initializer() { 
 		Thread thread = new Thread(() -> monitor());
 		thread.setName("Joao-Teste-01");
 		thread.start();
